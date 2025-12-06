@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Pacifico&family=Kalam:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="C:\Users\LENOVO\OneDrive\Desktop\Portfolio\style.css">
+</head>
+<body>
+  <header>
+<div class="logo">Neha Mathur</div>
+<nav>
+<a href="C:\Users\LENOVO\OneDrive\Desktop\Portfolio\About me.html">About me</a>
+<a href="C:\Users\LENOVO\OneDrive\Desktop\Portfolio\project.html">Projects</a>
+<a href="C:\Users\LENOVO\OneDrive\Desktop\Portfolio\Resume.html">Resume</a>
+</nav>
+<a href="C:\Users\LENOVO\OneDrive\Desktop\Portfolio\Get  in touch.html" class="btn">Get in touch</a>
+</header>
+    <section class="container">
+        <h1 class="main-title">Cards & <br> Template 👇</h1>
+
+        <!-- 1. Cards Section -->
+        <div class="section">
+             <!-- 3. Offer Template -->
+        <div class="section">
+            <h2> <span>Carousel</span></h2>
+
+            <div class="box big"><img src="file:///C:/Users/LENOVO/OneDrive/Desktop/Carousel.png"></div>
+        </div>
+            <h2>1. <span>Cards 🥳</span></h2>
+
+            <div class="grid-2">
+                <div class="box"><img src="file:///C:/Users/LENOVO/OneDrive/Desktop/Photoshop%20pamphlet/birthday%20card.png"></div>
+                <div class="box box2"><img src="file:///C:/Users/LENOVO/OneDrive/Desktop/Photoshop%20pamphlet/party%20card.png"></div>
+            </div>
+        </div>
+
+        <!-- 2. Drink Template -->
+        <div class="section">
+            <h2>2. <span>Drink Template 🍹</span></h2>
+
+            <div class="box big"><img src="file:///C:/Users/LENOVO/OneDrive/Desktop/Photoshop%20pamphlet/Orange%20juice%20pamphlet.png"></div>
+        </div>
+
+        <!-- 3. Offer Template -->
+        <div class="section">
+            <h2>3. <span>Offer Template 💸</span></h2>
+
+            <div class="box big"><img src="file:///C:/Users/LENOVO/OneDrive/Desktop/Photoshop%20pamphlet/Pamphlet%202.png"></div>
+        </div>
+
+    </section>
+
+</body>
+
+<Style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+body {
+    background: #ffffff;
+    color: #000;
+}
+
+
+/* MAIN */
+.container {
+    width: 90%;
+    max-width: 1150px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 0px 60px 40px 60px;
+}
+
+.main-title {
+    font-size: 58px;
+    font-weight: 900;
+    line-height: 1.2;
+    margin-bottom: 40px;
+}
+
+.section {
+    margin-top: 55px;
+}
+
+.section h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.section h2 span {
+    color: #FF1493;
+    font-weight: 700;
+}
+
+/* BOXES */
+.box img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.box2 img{
+     width: 100%;
+    border-radius: 10px;
+}
+
+.big { width: 100%;
+  border-radius: 10px;
+}
+
+/* GRID */
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 20px;
+}
+
+/* ------------------------------- */
+/* RESPONSIVE DESIGN */
+/* ------------------------------- */
+
+/* Tablets */
+@media (max-width: 900px) {
+    .main-title {
+        font-size: 46px;
+    }
+
+
+/* Mobile Devices */
+@media (max-width: 600px) {
+    .main-title {
+        font-size: 36px;
+    }
+
+    .section h2 {
+        font-size: 22px;
+    }
+
+
+    .box {
+        height: 220px;
+    }
+
+    .big {
+        height: 300px;
+    }
+}
+   
+
+
+</Style>
+
+</html>

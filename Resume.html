@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Pacifico&family=Kalam:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+<div class="logo">Neha Mathur</div>
+<nav>
+<a href="C:\Users\LENOVO\OneDrive\Desktop\Portfolio\About me.html">About me</a>
+<a href="C:\Users\LENOVO\OneDrive\Desktop\Portfolio\project.html">Projects</a>
+<a href="#">Resume</a>
+</nav>
+<a href="C:\Users\LENOVO\OneDrive\Desktop\Portfolio\Get  in touch.html" class="btn">Get in touch</a>
+</header>
+
+<div class="qr-code"><img src="file:///C:/Users/LENOVO/Downloads/My%20Resume%20(1).png"></div>
+<div class="caption">Resume Link &nbsp;<a href="C:\Users\LENOVO\Downloads\my-resume.pdf" id="resumeLink">Click</a></div>
+
+<style>
+    body {
+margin: 0;
+padding: 0;
+font-family: 'Poppins', sans-serif;
+background: #ffffff;
+background: url("file:///C:/Users/LENOVO/Downloads/Portfolio3.1%20image.png") no-repeat center center fixed;
+background-size: cover;
+}
+
+
+/* HEADER */
+header {
+width: 90%;
+padding: 18px 30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: #fff;
+box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+border-radius: 40px;
+margin: 20px auto;
+max-width: 1100px;
+}
+
+
+.logo {
+font-weight: 600;
+font-size: 18px;
+font-family: 'Kalam', cursive;;
+}
+
+
+nav {
+display: flex;
+gap: 40px;
+}
+
+
+nav a {
+text-decoration: none;
+color: #333;
+font-size: 15px;
+}
+
+.caption{
+    display: flex;
+    justify-content: center;
+    margin-bottom:8px;
+    color:#ffffff;
+    font-weight:600
+}
+
+nav a:hover{
+  border-bottom: 1.5px solid #656565;
+}
+nav a:active{
+  border-bottom: 1.5px solid #656565;
+}
+
+.qr-code{
+  display:flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.qr-code img{
+
+  width: 20%;
+  position: relative;
+}
+.caption{
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.caption a{
+color: #ffffff;
+}
+
+.btn {
+padding: 10px 22px;
+background: #000;
+color: #fff;
+border-radius: 25px;
+text-decoration: none;
+font-size: 15px;
+font-weight: 500;
+}
+.btn:hover{
+  background-color: #e95fa8;
+}
+.btn:active{
+background-color: #e95fa8;
+}
+
+
+/* RESPONSIVE NAV */
+@media (max-width: 768px) {
+nav {
+display: none;
+}
+header {
+justify-content: space-between;
+}
+}
+
+@media only screen and (max-width: 768px) {
+ body {
+    background-image: url("file:///C:/Users/LENOVO/Downloads/Portfolio3.1%20image.png"); 
+    background-size: contain; 
+  }
+}
+
+
+</style>
+</body>
+</html>

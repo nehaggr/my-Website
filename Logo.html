@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Pacifico&family=Kalam:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="C:\Users\LENOVO\OneDrive\Desktop\Portfolio\style.css">
+</head>
+<body>
+  <header>
+<div class="logo">Neha Mathur</div>
+<nav>
+<a href="C:\Users\LENOVO\OneDrive\Desktop\Portfolio\About me.html">About me</a>
+<a href="C:\Users\LENOVO\OneDrive\Desktop\Portfolio\project.html">Projects</a>
+<a href="C:\Users\LENOVO\OneDrive\Desktop\Portfolio\Resume.html">Resume</a>
+</nav>
+<a href="C:\Users\LENOVO\OneDrive\Desktop\Portfolio\Get  in touch.html" class="btn">Get in touch</a>
+</header>
+
+
+<h1 class="title">Logo 👇</h1>
+
+<section class="category">
+    <h2>1. Bunny <span class="pink">Cafe 🐰</span></h2>
+    <div class="grid-2">
+        <div class="img-box"><img src="file:///C:/Users/LENOVO/OneDrive/Desktop/Logo/coffee%20off%20white%20logo.png"></div>
+        <div class="img-box"><img src="file:///C:/Users/LENOVO/OneDrive/Desktop/Logo/Group%201.png"></div>
+    </div>
+    <div class="img-box large"><img src="file:///C:/Users/LENOVO/OneDrive/Desktop/Logo/Frame%202.png"></div>
+</section>
+
+<section class="category">
+    <h2>2. <span class="pink">NIKE 👟</span></h2>
+    <div class="grid-2">
+        <div class="img-box"><img src="file:///C:/Users/LENOVO/OneDrive/Desktop/Logo/anime%20orange%20logo.png"></div>
+        <div class="img-box"><img src="file:///C:/Users/LENOVO/OneDrive/Desktop/Logo/grey%20logo.png"></div>
+   
+    <div class="img-box"><img src="file:///C:/Users/LENOVO/OneDrive/Desktop/Logo/black%20hoodie.png"></div>
+    <div class="img-box"><img src="file:///C:/Users/LENOVO/OneDrive/Desktop/Logo/White%20Hoodie.png"></div></div>
+</section>
+
+<section class="category">
+    <h2>3. Mc <span class="pink">Donald's 🍔</span></h2>
+    <div class="grid-2">
+        <div class="img-box"><img src="file:///C:/Users/LENOVO/OneDrive/Desktop/Logo/Mc%20light%20yellow%20logo.png"></div>
+        <div class="img-box"><img src="file:///C:/Users/LENOVO/OneDrive/Desktop/Logo/Mc%20round%20logo.png"></div>
+    </div>
+    <div class="img-box large"><img src="file:///C:/Users/LENOVO/OneDrive/Desktop/Logo/logo%20mockups.png"></div>
+</section>
+
+<section class="category">
+    <h2>4. Gordhan <span class="pink">Fresh 🥦</span></h2>
+    <div class="img-box large"><img src="file:///C:/Users/LENOVO/OneDrive/Desktop/Logo/vegtable%20logo%20with%20bg.png"></div>
+</section>
+
+
+<style>
+
+/* Global */
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    padding: 0px;
+    background: #ffffff;
+    color: #111;
+}
+
+
+.title {
+    font-size: 40px;
+    margin-top: 30px;
+    font-weight: 700;
+    padding: 0px 60px 40px 60px;
+}
+
+/* Category Section */
+.category {
+    margin-top: 40px;
+   padding: 0px 60px 40px 60px;
+}
+
+.category h2 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.pink {
+    color: #ff2f9e;
+}
+
+/* IMAGE BOXES */
+.img-box img{
+   width: 100%;
+    border-radius: 10px;
+}
+
+/* Larger image below grids */
+.large {
+    height:100%;
+    margin-top: 15px;
+}
+
+/* Default Grid */
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 20px 0;
+}
+
+/* ------------------------- */
+/*     RESPONSIVE DESIGN     */
+/* ------------------------- */
+
+/* Tablets */
+@media (max-width: 900px) {
+    .title {
+        font-size: 32px;
+    }
+    .grid-2 {
+        gap: 15px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+
+    header {
+        justify-content: center;
+        text-align: center;
+    }
+
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+        margin-bottom: 10px;
+    }
+
+    nav a {
+        font-size: 13px;
+    }
+
+    .title {
+        font-size: 28px;
+        text-align: left;
+    }
+
+    /* Make 2-image grid turn into 1-image stack */
+    .grid-2 {
+        grid-template-columns: 1fr;
+    }
+
+    .img-box {
+        height: 220px;
+    }
+
+    .large {
+        height: 240px;
+    }
+}
+
+
+</style>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Pacifico&family=Kalam:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="C:\Users\LENOVO\OneDrive\Desktop\Portfolio\style.css">
+</head>
+<body>
+  <header>
+<div class="logo"></a>Neha Mathur</div>
+<nav>
+<a href="C:\Users\LENOVO\OneDrive\Desktop\Portfolio\About me.html">About me</a>
+<a href="C:\Users\LENOVO\OneDrive\Desktop\Portfolio\project.html">Projects</a>
+<a href="C:\Users\LENOVO\OneDrive\Desktop\Portfolio\Resume.html">Resume</a>
+</nav>
+<div>
+<a href="#" class="btn">Get in touch</a>
+</div>
+</header>
+
+<div class="tex">
+  <div class="top-sec">
+<p class="tagline">Excited to see what we can accomplish together</p>
+<a>Get in <span>Touch</span></a>
+<div class="section-title">Contact</div>
+</div>
+
+<div class="contact-item">📞 (+91)88 754 47853</div>
+<div class="contact-item">📩 picxycrown138@gmail.com</div>
+<div class="contact-item">🔗 www.linkedin.com/in/nehamathur6844</div>
+</div>
+
+<style>
+body {
+margin: 0;
+padding: 0;
+font-family: 'Poppins', sans-serif;
+background: #ffffff;
+background: url("file:///C:/Users/LENOVO/Downloads/Frame%201.png") no-repeat center center fixed;
+background-size: cover;
+}
+
+
+/* HEADER */
+header {
+width: 90%;
+padding: 18px 30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: #fff;
+box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+border-radius: 40px;
+margin: 20px auto;
+max-width: 1100px;
+}
+
+
+.logo {
+font-weight: 600;
+font-size: 18px;
+font-family: 'Kalam', cursive;;
+}
+
+
+nav {
+display: flex;
+gap: 40px;
+}
+
+
+nav a {
+text-decoration: none;
+color: #333;
+font-size: 15px;
+}
+nav a:hover{
+  border-bottom: 1.5px solid #656565;
+}
+
+.btn {
+padding: 10px 22px;
+background: #000;
+color: #fff;
+border-radius: 25px;
+text-decoration: none;
+font-size: 15px;
+font-weight: 500;
+}
+.btn:hover{
+  background-color: #e95fa8;
+}
+.btn:active{
+background-color: #e95fa8;
+}
+
+/* Layout */
+ .tex a{
+  color: #000;
+  font-size: 50px;
+  font-weight: 800;
+ }
+
+.tex span{
+  color:#e95fa8;
+  font-size: 50px;
+  font-weight: 800;
+}
+.tex{
+  padding: 8%;
+}
+.top-sec {
+  line-height: 30px;
+}
+.section-title{
+    font-size:20px;
+    font-weight:600;
+    margin-top:40px;
+    margin-bottom:16px;
+    color:var(--accent);
+    text-decoration:underline;
+    color:#e95fa8
+}
+
+
+.contact-item{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin:10px 0;
+    color:#111;
+    font-size:15px
+}
+
+
+
+@media(max-width:980px){
+.tex-img{grid-template-columns:1fr}
+.title{font-size:48px}
+}
+@media(max-width:480px){
+.title{font-size:36px}
+}
+</style>
+</body>
+</html>
