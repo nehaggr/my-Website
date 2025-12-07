@@ -29,4 +29,122 @@ picxycrown138@gmail.com
 
 </body>
 
+  <style>
+    body {
+margin: 0;
+padding: 0;
+font-family: 'Poppins', sans-serif;
+background: #ffffff;
+background: url('%20image.png') no-repeat center center fixed;
+background-size: cover;
+}
+
+
+/* HEADER */
+header {
+width: 90%;
+padding: 18px 30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: #fff;
+box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+border-radius: 40px;
+margin: 20px auto;
+max-width: 1100px;
+}
+
+
+.logo {
+font-weight: 600;
+font-size: 18px;
+font-family: 'Kalam', cursive;;
+}
+
+
+nav {
+display: flex;
+gap: 40px;
+}
+
+
+nav a {
+text-decoration: none;
+color: #333;
+font-size: 15px;
+}
+nav a:hover{
+  border-bottom: 1.5px solid #656565;
+}
+
+.btn {
+padding: 10px 22px;
+background: #000;
+color: #fff;
+border-radius: 25px;
+text-decoration: none;
+font-size: 15px;
+font-weight: 500;
+}
+.btn:hover{
+  background-color: #e95fa8;
+}
+.btn:active{
+background-color: #e95fa8;
+}
+
+/* FOOTER LABELS */
+.footer-text {
+position: absolute;
+bottom: 20px;
+left: 30px;
+font-size: 14px;
+color: #333;
+}
+
+
+.email {
+position: absolute;
+bottom: 20px;
+right: 30px;
+display: flex;
+gap: 10px;
+align-items: center;
+font-size: 14px;
+}
+
+
+.email img {
+width: 30px;
+}
+
+
+/* RESPONSIVE NAV */
+@media (max-width: 768px) {
+nav {
+display: none;
+}
+header {
+justify-content: space-between;
+}
+}
+
+@media only screen and (max-width: 768px) {
+ body {
+    background-image: url('file:///C:/Users/LENOVO/Downloads/Portfolio%20image.png'); 
+    background-size: contain; 
+  }
+}
+
+@media (max-width: 600px) {
+
+.footer-text,
+.email {
+position: static;
+margin-top: 20px;
+}
+
+}
+  </style>
 </html>
+
